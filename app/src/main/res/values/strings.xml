@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Assignment1</string>
-    <string name="welcome_to_movies_search_list">Welcome to Movies Search List ^_^</string>
+    <string name="welcome_to_movies_search_list">\nWelcome to Movies Search List ^_^</string>
     <string name="search">Search</string>
 </resources>

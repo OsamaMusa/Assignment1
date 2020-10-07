@@ -9,6 +9,7 @@
     android:orientation="vertical"
     android:layout_margin="10dp"
     android:gravity="center"
+    android:background="@drawable/image"
     >
 
     <TextView
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="@string/welcome_to_movies_search_list"
         android:layout_marginBottom="8dp"
+
          />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -23,18 +25,21 @@
         android:layout_margin="12dp"
         android:orientation="horizontal"
         android:gravity="center"
+
         >
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/spinner"
+
             />
 
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edtSearch" />
+            android:id="@+id/edtSearch"
+            />
     </LinearLayout>
        <Button
            android:layout_width="wrap_content"
@@ -45,7 +50,8 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/edtResult" />
+        android:id="@+id/edtResult"
+        />
 
 
 </LinearLayout>
