@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         String result="";
         int count=1;
         for (Movie movie : resultList){
-            result+="#"+(count++) +" "+movie.toString()+"\n";
+            result+="\t\t\t #"+(count++) +" "+movie.toString()+"\n";
         }
         edtResult.setText(result);
     }
